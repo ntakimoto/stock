@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shiire"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="商品仕入" />
+        <item
+            android:id="@+id/nav_touroku"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="商品登録" />
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="スタッフ・ストア登録" />
+        <item
+            android:id="@+id/nav_check"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="在庫チェック" />
+    </group>
+
+</menu>
